@@ -12,7 +12,7 @@ To create a dashboard in Power BI on Call Centre Trends visualizing customer and
 •	Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
 
 ### The Dataset 
-The data came in an excel files containing 5,000 unique rows and 10 columns. ![]()  
+The data came in an excel files containing 5,000 unique rows and 10 columns. You can find the dataset ![Here](https://github.com/Mayreeobi/PwC-Virtual-Internship/blob/main/Call_Centre.xlsx)  
 
 ### Data Cleaning and Transformation
 The data was load in Power Query and the following was done.
@@ -29,8 +29,9 @@ The data was load in Power Query and the following was done.
       3.     Avg Speed of Answer	AVERAGE(Call_record[Speed of answer in seconds])
 
 ### Visualization 
-![]()
-The dashboard [Here] (https://app.powerbi.com/view?r=eyJrIjoiYTcwMDg3OGMtM2ZhNy00Mjg1LWE1NWItYzUwMDFhOWFkM2YyIiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
+![](https://github.com/Mayreeobi/PwC-Virtual-Internship/blob/main/Call_Centre.png)
+
+You can interact with the dashboard [Here](https://app.powerbi.com/view?r=eyJrIjoiYTcwMDg3OGMtM2ZhNy00Mjg1LWE1NWItYzUwMDFhOWFkM2YyIiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
 
 ### Insights
 -	Total Calls is 5,000, and it's made up of 4,054 Answered Calls and 946 Rejected calls.
@@ -50,7 +51,7 @@ The dashboard [Here] (https://app.powerbi.com/view?r=eyJrIjoiYTcwMDg3OGMtM2ZhNy0
 The aim in this task is to define proper KPIs, create a dashboard reflecting the defined KPIs, and make recommendations. The Dashboard was divided into 3 categories namely: Demographics; Account Details and Phone Services.
 
 ### The Dataset 
-The data came in an excel files containing 7,043 unique rows and 23 columns.  
+The data came in an excel files containing 7,043 unique rows and 23 columns.  You can find the dataset ![Here](https://github.com/Mayreeobi/PwC-Virtual-Internship/blob/main/Churn_Dataset.xlsx)
 
 ### Data Cleaning and Transformation
 The data was load in Power Query and the following transformations was done. 
@@ -67,8 +68,9 @@ The data was load in Power Query and the following transformations was done.
       7.	 Total Customer	COUNT(Churn_record[customerID])
 
 ### Visualization 
-![]()
-The dashboard [Here] (https://app.powerbi.com/view?r=eyJrIjoiNDU4NGUxNTgtZjE4Yy00YWI2LTkwYmItMmY2YmVhMzc4Yzk1IiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
+![](https://github.com/Mayreeobi/PwC-Virtual-Internship/blob/main/CustomerRetention1.png)
+
+You can interact with the dashboard [Here](https://app.powerbi.com/view?r=eyJrIjoiNDU4NGUxNTgtZjE4Yy00YWI2LTkwYmItMmY2YmVhMzc4Yzk1IiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
 
 ### Recommendations
 1.	Offer seamless payment method especially address any issue regarding the electronic check payment process.
@@ -96,7 +98,7 @@ Calculate the following measures to help define proper KPIs:
 -	Average Performance rating: women
 
 ### The Dataset 
-The data came in an excel files containing 500 unique rows and 23 columns.  
+The data came in an excel files containing 500 unique rows and 23 columns. You can find the dataset ![Here](https://github.com/Mayreeobi/PwC-Virtual-Internship/blob/main/Diversity_Inclusion.xlsx)
 
 ### Data Cleaning and Transformation
 The data was load in Power Query, the data had no duplicates, missing values or any inconsistenency  an
@@ -141,8 +143,9 @@ The following DAX measures was created:
 18.	    Number of Employees at start of the year=	CALCULATE([Total Employees],'Pharma Group'[In base group for turnover FY20] = "Y")
 
 ### Visualization
-![]()
-The dashboard [Here](https://app.powerbi.com/view?r=eyJrIjoiNzYyODAwOGEtODc5My00YTJiLThmOTYtNjAyM2YxNGEwODA3IiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
+![](https://github.com/Mayreeobi/PwC-Virtual-Internship/blob/main/Diversity1.png)
+
+Find the interactive dashboard [Here](https://app.powerbi.com/view?r=eyJrIjoiNzYyODAwOGEtODc5My00YTJiLThmOTYtNjAyM2YxNGEwODA3IiwidCI6ImExZGNjNGZiLTRlYzAtNGI1Ni04NDg1LTRmOTgzYzMyODY0MiJ9)
 
 ### Insights 
 The aftermath of the COVID-19 pandemic led to economic recession and thus leading to a decline in hiring. In 2020, women accounted for 51.5% of the new hires and young employees in the age group of 20 - 29 were hired the most. 
